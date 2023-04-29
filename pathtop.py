@@ -1,6 +1,5 @@
 import os #importa o módulo os, que fornece uma maneira portátil de usar a funcionalidade dependente do sistema operacional, como ler ou escrever em um diretório.
 import psutil #importa o módulo que permite acessar dados de uso de CPU e memória do processo
-import subprocess #importa o módulo que permite a execução de comandos no teminal linux
 
 def list_dirs(): #listar os diretórios em /proc
     #array que armazena os diretórios de /proc
