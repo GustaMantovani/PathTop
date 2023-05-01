@@ -3,7 +3,7 @@
 
 Este é um script Python que permite a busca por processos iniciados por um determinado binário e exibe algumas métricas de uso de CPU e memória para cada processo encontrado.
 
-O script utiliza os módulos os, psutil e subprocess do Python. O módulo os é usado para listar os diretórios em /proc, o módulo psutil é usado para acessar dados de uso de CPU e memória do processo e o módulo subprocess é usado para executar comandos no terminal Linux.
+O script utiliza os módulos os, psutil e subprocess do Python. O módulo os é usado para listar os diretórios em /proc, o módulo psutil é usado para acessar dados de uso de CPU e memória do processo.
 
 A função list_dirs() lista os diretórios em /proc que contém apenas números (que correspondem aos PIDs dos processos) e retorna um array com os PIDs dos processos que são do interesse do usuário (ou seja, os PIDs dos processos iniciados pelo binário em questão).
 
